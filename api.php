@@ -1,5 +1,5 @@
 <?php
-$main = "T678HSOK-MNBVFDEW-234RFDS-WFMJEIW"
+$main = "T678HSOK-MNBVFDEW-234RFDS-WFMJEIW";
 $domain_url = 'https://mainframescripts.com/'; 
 $lengthofstring = 5; 
 function RandomString($length) {
