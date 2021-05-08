@@ -1,7 +1,7 @@
 <?php
 $main = "T678HSOK-MNBVFDEW-234RFDS-WFMJEIW";
-$domain_url = 'https://mainframescripts.com/'; 
-$lengthofstring = 5; 
+$domain_url = 'http://very-s.us/'; 
+$lengthofstring = 5; s
 function RandomString($length) {
     $keys = array_merge(range(0,9), range('a', 'z'));
 
@@ -22,7 +22,7 @@ if(isset($_POST['apikey']))
 
         if (move_uploaded_file($_FILES["sharex"]["tmp_name"], $filename.'.'.$fileType))
         {
-            echo $domain_url.$sharexdir.$filename;
+            echo $domain_url.$filename;
         }
             else
         {
