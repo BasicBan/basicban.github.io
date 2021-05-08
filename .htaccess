@@ -1,0 +1,18 @@
+    RewriteEngine on 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME}\.php -f 
+    RewriteRule ^(.*)$ $1.php
+
+    RewriteEngine on 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME}\.html -f 
+    RewriteRule ^(.*)$ $1.html
+    
+    RewriteEngine on 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME}\.png -f 
+    RewriteRule ^(.*)$ $1.png
+    
+    RewriteEngine On
+	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(([^/]+/)*([^/.]+))\.png[\ ?]
+	RewriteRule \.png$ /%1 [R=301,NC,L]
