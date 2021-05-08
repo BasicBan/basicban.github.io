@@ -1,6 +1,6 @@
 <?php
 $main = "T678HSOK-MNBVFDEW-234RFDS-WFMJEIW";
-$domain_url = 'http://very-s.us/'; 
+$domain_url = 'https://www.very-s.us/'; 
 $lengthofstring = 5; s
 function RandomString($length) {
     $keys = array_merge(range(0,9), range('a', 'z'));
